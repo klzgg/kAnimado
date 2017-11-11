@@ -1,19 +1,81 @@
-<ion-header>
+<ion-header verflow-scroll="false" class={{this.theme}}>
   <ion-navbar>
     <ion-title>
       kAnimado Project
     </ion-title>
+    <ion-buttons left>
+      <button ion-button menuToggle>
+        <ion-icon name="md-menu"></ion-icon>
+      </button>
+    </ion-buttons>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
   The world is your oyster.
   <p>
-    If you get lost, the <a href="http://localhost:8100/">docs</a> will be your guide.
+    If you get lost, the <a href="http://ionicframework.com/docs/components/#lists">Lists</a> will be your guide.
     Bienvenido a kAnimado!! 
     El sitio donde puedes encontrar el anime que tú desees
     tal como si estuvieras desde el ordenador.
+    <a href="https://youtu.be/_Fva8jGWyic">Video</a>
   </p>
+  <p>
+    <ion-item-group>
+      <ion-list>
+        <button ion-item href="https://youtu.be/_Fva8jGWyic">
+          Tuto
+        </button>  
+      </ion-list>
+      <button ion-button>
+        AboutMine
+      </button>
+      <a href="../acerca-de/acerca-de"></a>
+    </ion-item-group>
+  </p>
+  <ion-list>
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="img/thumbnail-totoro.png">
+      </ion-thumbnail>
+      <h3>My Neighbor Totoro</h3>
+      <p>Hayao Miyazaki • 1988</p>
+      <p>Some of description here...</p>
+      <button ion-button clear item-end>View</button>
+    </ion-item>
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="assets/img/thumbnail-rotla.png">
+      </ion-thumbnail>
+      <h2>Raiders of the Lost Ark</h2>
+      <p>Steven Spielberg • 1981</p>
+      <button ion-button clear item-end>View</button>
+    </ion-item>
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="assets/img/thumbnail-ghostbusters.png">
+      </ion-thumbnail>
+      <h2>Ghostbusters</h2>
+      <p>Ivan Reitman • 1984</p>
+      <button ion-button clear item-end>View</button>
+    </ion-item>
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="assets/img/thumbnail-batman.png">
+      </ion-thumbnail>
+      <h2>Batman</h2>
+      <p>Tim Burton • 1988</p>
+      <button ion-button clear item-end>View</button>
+    </ion-item>
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="assets/img/thumbnail-bttf.png">
+      </ion-thumbnail>
+      <h2>Back to the Future</h2>
+      <p>Robert Zemeckis • 1985</p>
+      <button ion-button clear item-end>View</button>
+    </ion-item>
+  </ion-list>
 <!--
   <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">
     <div class="item-note" item-end>
