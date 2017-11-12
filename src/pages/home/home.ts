@@ -13,4 +13,8 @@ export class HomePage {
 
   }
 
+  goBack() {
+  	this.navCtrl.push(AcercaDePage);
+  }
+
 }

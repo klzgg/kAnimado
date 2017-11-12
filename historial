@@ -146,3 +146,31 @@ Try reinstall Android SDK or update your PATH to include valid path to SDK/platf
 [ERROR] An error occurred while running cordova run android (exit code 1).
         
 [15:37:13]  lint finished in 8.26 s 
+
+
+45.77.197.245
+Puerto: 2232
+Protocolo SFTP
+Modo: Normal
+
+$ ssh -p 2232 root@45.77.197.245
+[password]***********
+$
+$ ^C
+$
+#reiniciar servicios sin tener que reiniciar el servidor
+$ status
+$ 
+$ 
+$ 
+$ 
+$ 
+$ mkdir carpetita
+$ cp archivo.txt carpetita
+$ 
+$ cd carpetita
+$ rm archivo.txt
+$ cd ..
+$ rm -r carpetita
+$ 
+$ 

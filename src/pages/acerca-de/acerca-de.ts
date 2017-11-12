@@ -24,7 +24,7 @@ export class AcercaDePage {
   }
 
   goToHome() {
-  	this.navCtrl.push(HomePage);
+  	this.navCtrl.pop();
   }
 
 }

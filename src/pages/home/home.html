@@ -27,7 +27,7 @@
           Tuto
         </button>  
       </ion-list>
-      <button ion-button>
+      <button ion-button (click)="goBack()">
         AboutMine
       </button>
       <a href="../acerca-de/acerca-de"></a>
@@ -35,18 +35,18 @@
   </p>
   <ion-list>
     <ion-item>
-      <ion-thumbnail item-start>
+      <ion-avatar item-start>
         <img src="img/thumbnail-totoro.png">
-      </ion-thumbnail>
+      </ion-avatar>
       <h3>My Neighbor Totoro</h3>
       <p>Hayao Miyazaki • 1988</p>
       <p>Some of description here...</p>
       <button ion-button clear item-end>View</button>
     </ion-item>
     <ion-item>
-      <ion-thumbnail item-start>
+      <ion-avatar item-start>
         <img src="assets/img/thumbnail-rotla.png">
-      </ion-thumbnail>
+      </ion-avatar>
       <h2>Raiders of the Lost Ark</h2>
       <p>Steven Spielberg • 1981</p>
       <button ion-button clear item-end>View</button>

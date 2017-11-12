@@ -68,7 +68,7 @@ var HomePage = (function () {
 }());
 HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-home',template:/*ion-inline-start:"/run/media/khalil/Nyu/Documentos/kAnimado/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Ionic Blank\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  The world is your oyster.\n  <p>\n    If you get lost, the <a href="http://localhost:8100/">docs</a> will be your guide.\n  </p>\n</ion-content>\n'/*ion-inline-end:"/run/media/khalil/Nyu/Documentos/kAnimado/src/pages/home/home.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"/run/media/khalil/Nyu/Documentos/kAnimado/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      kAnimado Project\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  The world is your oyster.\n  <p>\n    If you get lost, the <a href="http://localhost:8100/">docs</a> will be your guide.\n    Bienvenido a kAnimado!! \n    El sitio donde puedes encontrar el anime que tú desees\n    tal como si estuvieras desde el ordenador.\n  </p>\n<!--\n  <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">\n    <div class="item-note" item-end>\n      {{item.note}}\n    </div>\n  </button>\n-->\n</ion-content>\n'/*ion-inline-end:"/run/media/khalil/Nyu/Documentos/kAnimado/src/pages/home/home.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
 ], HomePage);
